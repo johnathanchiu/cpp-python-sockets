@@ -1,4 +1,4 @@
-# cpp-python-sockets
+# CPP-Python-Sockets
 
 Python server with a c++ client. This utility is useful when you want to merge c++ code with python.
 
