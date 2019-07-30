@@ -1,6 +1,5 @@
 //
 //  socket.cpp
-//  Scenic-Socket
 //
 //  Created by Johnathan Chiu on 2/21/19.
 //  Copyright © 2019 Johnathan Chiu. All rights reserved.
@@ -12,13 +11,13 @@
 #define IP "127.0.0.1"
 
 using namespace std;
-using namespace scenicsocket;
+using namespace serversock;
 
 int sockfd, n;
 struct sockaddr_in serv_addr;
 char buffer[256];
 
-void scenicsocket::createConnection() {
+void serversock::createConnection() {
     
     /* Create a socket point */
     sockfd = socket(AF_INET, SOCK_STREAM, 0);
@@ -46,7 +45,7 @@ void scenicsocket::createConnection() {
     
 }
 
-int scenicsocket::readValues(objectData *a) {
+int serversock::readValues(objectData *a) {
     
     fd_set fds;
     struct timeval tv;

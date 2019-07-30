@@ -18,7 +18,7 @@
 
 #endif /* socket_hpp */
 
-namespace scenicsocket {
+namespace serversock {
     
     struct objectData {
         unsigned int value;

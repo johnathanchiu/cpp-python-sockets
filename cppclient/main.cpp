@@ -10,9 +10,9 @@
 #include "socket.hpp"
 
 using namespace std;
-using namespace scenicsocket;
+using namespace serversock;
 
-struct scenicsocket::objectData data;
+struct serversock::objectData data;
 
 int main(int argc, char *argv[]) {
     objectData *pointer = &data;
