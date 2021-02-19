@@ -1,6 +1,5 @@
 //
 //  socket.hpp
-//  Scenic-Socket
 //
 //  Created by Johnathan Chiu on 2/21/19.
 //  Copyright © 2019 Johnathan Chiu. All rights reserved.
